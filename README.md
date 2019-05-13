@@ -14,6 +14,14 @@ The intention here is provide a repo that can be forked to quickly get a simple 
 
 ## Build
 
+### .NET Core Installation
+
+Instructions to install dotnet core 2.2 on Linux Centos
+
+        rpm -Uvh https://packages.microsoft.com/config/rhel/7/packages-microsoft-prod.rpm
+        yum repolist
+        yum install dotnet-sdk-2.2
+
 ### .NET binaries
 
         dotnet publish -c Release -o out
